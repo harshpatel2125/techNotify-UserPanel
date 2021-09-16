@@ -1,0 +1,18 @@
+$(document).ready(function()
+{
+	$("#search-txt").click(function()
+	{
+		$(".search-class").addClass("active");
+		$(".form-search-box").removeClass("d-none");
+	});
+	$("#change-pass").click(function()
+	{
+		$(".edit-profile-form").addClass("d-none");
+		$(".change-password-form").removeClass("d-none");
+	});
+	$("#edit-pro").click(function()
+	{
+		$(".change-password-form").addClass("d-none");
+		$(".edit-profile-form").removeClass("d-none");
+	});
+});
